@@ -38,7 +38,7 @@ These insights empower stackeholders with key business metrics, enabling strateg
 
 This project is licensed under the [MIT Licence].(LICENSE). You are free to use, modify, and share this project with poper attribution.
 
-## About Me
+## 🌟 About Me
 
 Hi there! I'm **Akanji Timothée Olanyi Olatundé**, also know as **ATOO**. I'm an Data Professional, *Analytics Developer & Data Engineer | BI | Python & SQL Expert, ETL, Cloud | Certified DataCamp | Health Tech Enthusiast* on a mission to share my knowledge of Data subjects and use them as a lever to help improve the healthcare sector in Africa and around the world.
 
