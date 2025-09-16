@@ -42,7 +42,7 @@ The Gold Layer is the business-level data representation, structured to support 
 | start_date         | DATE          | Surrogate kay uniquely identifying each customer record in the dimension table|
 
 ------------------------------------------
-### 2. gold.fact_sales
+### 3. gold.fact_sales
 * **Purpose** : Stores transactional sales data for analytics purposes.
 * **Columns**:
 
