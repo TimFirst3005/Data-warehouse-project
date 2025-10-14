@@ -1,0 +1,37 @@
+/*
+========================================
+	Changes Over Time Analysis
+========================================
+*/
+
+SELECT
+	MONTH(order_date) as order_year
+	,SUM(sales_amount) as total_Sales
+	,COUNT(DISTINCT customer_key) as total_customers
+	,SUM(quantity) total_quantity
+
+FROM gold.fact_sales
+WHERE order_date IS NOT NULL
+GROUP BY MONTH(order_date)
+ORDER BY MONTH(order_date)
+
+	-- Date Trunc 
+SELECT
+	DATETRUNC(MONTH, order_date) as order_year
+	,SUM(sales_amount) as total_Sales
+	,COUNT(DISTINCT customer_key) as total_customers
+	,SUM(quantity) total_quantity
+FROM gold.fact_sales
+WHERE order_date IS NOT NULL
+GROUP BY DATETRUNC(MONTH, order_date)
+ORDER BY DATETRUNC(MONTH, order_date)
+
+SELECT
+	DATETRUNC(year, order_date) as order_year
+	,SUM(sales_amount) as total_Sales
+	,COUNT(DISTINCT customer_key) as total_customers
+	,SUM(quantity) total_quantity
+FROM gold.fact_sales
+WHERE order_date IS NOT NULL
+GROUP BY DATETRUNC(year, order_date)
+ORDER BY DATETRUNC(year, order_date)
