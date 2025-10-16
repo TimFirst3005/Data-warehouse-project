@@ -9,7 +9,7 @@
 */
 
 -- Which categories contribute the most to overall sales ?
--- Quelles catégories contribuent le plus aux ventes globales ?
+-- Quelles catÃ©gories contribuent le plus aux ventes globales ?
 WITH category_sales AS (
 	SELECT 
 		category
