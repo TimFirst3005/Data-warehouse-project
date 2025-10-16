@@ -1,18 +1,18 @@
 /*
 ==============================================================
-	Data Segmentation / Segmentation des données
+	Data Segmentation / Segmentation des donnÃ©es
 ==============================================================
 En:	
 	Group the data based on a specific range.
 	Helps understand the correlation between two measures.
 Fr:
-	Regroupez les données en fonction d'une plage spécifique.
-	Aide à comprendre la corrélation entre deux mesures.
+	Regroupez les donnÃ©es en fonction d'une plage spÃ©cifique.
+	Aide Ã  comprendre la corrÃ©lation entre deux mesures.
 ==============================================================
 */
 
 -- Segment products into cost ranges and count how many products fall into each segment.
--- Segmentez les produits en fonction de leur gamme de prix et comptez le nombre de produits appartenant à chaque segment.
+-- Segmentez les produits en fonction de leur gamme de prix et comptez le nombre de produits appartenant Ã  chaque segment.
 WITH product_segments AS (
 	SELECT 
 		product_key
